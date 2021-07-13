@@ -1,0 +1,28 @@
+{
+    "name": "juststeveking/laravel-erp-contracts",
+    "description": "A package to use when building modules for the Laravel ERP package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Steve McDougall",
+            "email": "juststevemcd@gmail.com",
+            "homepage": "https://www.juststeveking.uk/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JustSteveKing\\Laravel\\ERPContracts\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
