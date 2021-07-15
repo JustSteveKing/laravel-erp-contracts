@@ -21,7 +21,8 @@ class ModuleInstaller implements InstallerContract
         private Module $module,
     ) {}
     
-    public function install() : void{
+    public function install() : void
+    {
         $this->module->runSomething();
     }
 }
